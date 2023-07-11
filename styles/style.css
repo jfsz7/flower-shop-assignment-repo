@@ -128,3 +128,16 @@ main section {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
+
+/* services section */
+.services {
+    padding: 50px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 130px 130px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}

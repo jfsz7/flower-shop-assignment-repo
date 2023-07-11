@@ -14,6 +14,23 @@
     color:#FFF;
     padding: 8px 15px;
     font-size: 18px;
+    cursor: pointer;
+}
+.section-title {
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.section-desc {
+    color:  #181818;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    /* padding: 0px 150px;  */
+
 }
 /* header styles */
 .header{
@@ -50,12 +67,12 @@ nav a {
 /* banner style*/
 .banner {
     display: flex;
-    padding: 30px 30px 0px 100px;
+    padding: 30px 0px 0px 100px;
     align-items: center;
     justify-content: space-around;
 }
 .banner-content {
-    width: 500px; /*banner heading*/
+    width: 500px; 
 }
 .banner .flower-dp {
     width: 435px;
@@ -65,11 +82,49 @@ nav a {
     color:#181818;
     font-size: 45px;
     font-weight: 700;
-    margin-top: 5px;
     margin-bottom: 20px;
 }
 .banner-desc {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+/* main section style */
+/* main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section {
+    margin-top: 130px;
+} */
+
+/* Featured flowers section styles */
+.flowers-in-circle {
+    margin: 0 190px;
+}
+
+.flowers-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.flower-name{
+    text-decoration: underline;
+}
+
+#pink-tulip {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+}
+#mix-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+#yellow-tulip{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }

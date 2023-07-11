@@ -130,14 +130,16 @@ main section {
 }
 
 /* services section */
+.services {
+    padding: 50px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 130px 130px;
+}
 
 .services-container {
     display: flex;
-    background: rgba(39, 39, 39, 0.05);
     justify-content: space-around;
     text-align: center;
-    padding: 50px;
-    margin: 130px 130px;
 }
  
 /* hot deal sale section */
@@ -196,4 +198,23 @@ main section {
 .contact, input{
     padding: 8px 155px;
     border: none;
+}
+
+
+/* footer section */
+.cp-text{
+    text-align: center;
+    background-color: #181818;
+    color: white;
+    padding: 130px;
+}
+.footer-desc{
+    padding: 20px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.40);
+   
+}
+.cp-desc{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.40);
 }

@@ -130,16 +130,14 @@ main section {
 }
 
 /* services section */
-.services {
-    padding: 50px;
-    background: rgba(39, 39, 39, 0.05);
-    margin: 130px 130px;
-}
 
 .services-container {
     display: flex;
+    background: rgba(39, 39, 39, 0.05);
     justify-content: space-around;
     text-align: center;
+    padding: 50px;
+    margin: 130px 130px;
 }
  
 /* hot deal sale section */
@@ -170,4 +168,32 @@ main section {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+/* instragram section stlyles */
+
+.instragram {
+    margin: 0px 190px;
+}
+
+.instragram-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    text-align: center;
+} 
+/* get deals section */
+.get-deals{
+    padding: 100px 100px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-position: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 130px 130px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.contact, input{
+    padding: 8px 155px;
+    border: none;
 }

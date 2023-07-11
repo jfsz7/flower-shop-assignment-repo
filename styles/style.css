@@ -1,0 +1,75 @@
+/* common styles throughout */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;   
+}
+.text-primary {
+    color: #E55473; /*title*/
+}
+.btn-primary {    /*btn design*/
+    border-radius: 20px;
+    background: #E55473;
+    border: 0;
+    color:#FFF;
+    padding: 8px 15px;
+    font-size: 18px;
+}
+/* header styles */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+/* nav styles */  
+ nav {
+    display: flex;
+    padding: 30px 0px 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+
+}
+.nav-title {
+    color: #181818;
+    font-size: 35px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;  
+}
+nav a {
+    text-decoration: none;
+    color:#181818;
+    font-size: 18px;
+}
+
+/* banner style*/
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-content {
+    width: 500px; /*banner heading*/
+}
+.banner .flower-dp {
+    width: 435px;
+    height: 500px;
+}
+.banner-heading {
+    color:#181818;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-desc {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
